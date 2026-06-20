@@ -40,27 +40,16 @@ Stock_Prediction/
 │
 ├── data/
 │   ├── aapl.csv
-│   └── cleaned_aapl.csv
+|   ├──collection.py
+│   └── featured_engineered_aapl.csv
 │
-├── notebooks/
-│   ├── collection.py
+├── notebooks/│   
 │   ├── EDA.py
 │   ├── feature_engineering.py
-│   ├── linear_regression.py
-│   ├── random_forest.py
+|   ├──Model_Training.py   
+│   ├── Random_forest.py
 │   ├── ARIMA_model.py
-│   └── model_comparison.py
-│
-├── models/
-│
-├── results/
-│   ├── graphs/
-│   ├── predictions.csv
-│   └── model_comparison.csv
-│
-├── report/
-│   └── Internship_Report.pdf
-│
+│   └── Model_comparison.py
 └── README.md
 ```
 
@@ -225,7 +214,7 @@ Potential enhancements include:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Stock_Prediction.git
+git clone https://github.com/GOODFIGHTERSOY/Stock_prediction.git
 ```
 
 ### Install Dependencies
@@ -255,7 +244,7 @@ python notebooks/feature_engineering.py
 ### Run Models
 
 ```bash
-python notebooks/linear_regression.py
+python notebooks/Model_Training.py
 
 python notebooks/random_forest.py
 
